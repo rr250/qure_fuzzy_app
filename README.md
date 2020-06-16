@@ -3,9 +3,10 @@
 ```bash
 # Install dependencies
 npm install
+pip3 install -r requirements.txt
 
 # Serve API on localhost:8000
-python qurefuzzyapp/manage.py runserver
+python3 qurefuzzyapp/manage.py runserver
 
 # Run webpack (from root)
 npm run dev
